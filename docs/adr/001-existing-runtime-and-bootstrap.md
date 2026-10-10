@@ -1,0 +1,15 @@
+# ADR-001: существующие инструменты и явный bootstrap
+
+Дата: 2026-10-09. Решение принято при T01.
+
+По поручению пользователя использовать инструменты, уже установленные на компьютере. Найдены Python 3.13.2, uv 0.9.28, FastAPI 0.115.6, Pydantic 2.11.7, HTTPX 0.28.1, SQLAlchemy 2.0.36, Loguru 0.7.2, Streamlit 1.58.0, pytest 8.3.4 и pytest-asyncio 0.26.0. Существующий Docker-образ `ghcr.io/astral-sh/uv:python3.12-bookworm-slim` содержит uv 0.9.30 и Python 3.12; использовать его по проверенному digest. PostgreSQL 16-alpine также уже установлен. Qdrant отсутствует и является необходимой новой зависимостью.
+
+Основная воспроизводимая среда остаётся Python 3.12 в Docker. `requires-python >=3.12,<3.14` допускает существующий локальный Python 3.13 без смены основного runtime. Установленные прямые зависимости переиспользуются по проверенным версиям, остальные разрешаются uv и фиксируются в lock. Глобальные пакеты не изменять. До этого решения uv 0.12.24 скачан в игнорируемую `.tools`, но основной запуск его не использует; новых Python не устанавливать.
+
+Проверка совместного запуска выявила конфликт имеющихся FastAPI 0.115.6 и Streamlit 1.58.0: Starlette 0.41.3 не содержит DEFAULT_EXCLUDED_CONTENT_TYPES, импортируемый Streamlit. Для проекта выбрать FastAPI 0.121.3 и Starlette 0.50.0; [официальные release notes](https://fastapi.tiangolo.com/release-notes/#01213) подтверждают допустимый диапазон Starlette <0.51.0. Остальные установленные прямые версии сохранены. Изменение локально для Docker/lock, Windows пакеты не обновляются; совместимость подтверждается повторными тестами и реальным запуском UI.
+
+Спецификация требует production startup с настроенными локальными моделями; T01 требует запуск до их выбора на T05. Ввести APP_MODE=bootstrap для проверки инфраструктуры. Он не обещает поиск, обработку jobs или генерацию; capabilities всегда false для ещё не реализованных функций. `/status` scope=bootstrap_infrastructure может быть ready только при доступной инфраструктуре; local_models/retrieval/job_processing остаются not_implemented. Production mode пока явно отклоняется. Worker/scheduler на T01 поддерживают только lifecycle heartbeat; очередь реализуется на T07.
+
+API-ключ необязателен; наличие ключа отображается только как llm_configured, не как работоспособная генерация. Health/readiness не вызывают платный provider API. UI на T01 показывает состояние; общение реализуется на T13.
+
+Проверенные официальные технические источники: [uv Docker](https://docs.astral.sh/uv/guides/integration/docker/), [uv lock/sync](https://docs.astral.sh/uv/concepts/projects/sync/), [FastAPI lifecycle](https://fastapi.tiangolo.com/advanced/events/), [Pydantic Settings](https://docs.pydantic.dev/latest/concepts/pydantic_settings/), [asyncpg API](https://magicstack.github.io/asyncpg/current/api/index.html), [Compose startup order](https://docs.docker.com/compose/how-tos/startup-order/). Версии фактически разрешены и установлены через uv.lock, digest образов получены через Docker inspect/pull; эти проверки не заменяют benchmark выбора моделей.

@@ -1,0 +1,25 @@
+Included components retain their upstream licenses. License texts and package metadata
+are included beside the binaries or within python/Lib/site-packages/*.dist-info.
+
+CPython 3.12.15 (PSF): https://www.python.org/ — python/LICENSE.txt
+Microsoft Visual C++ v14 runtime DLLs: https://aka.ms/vs/17/release/vc_redist.x64.exe
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
+Runtime libraries are supplied locally alongside the application; no runtime installer is run.
+Portable runtime distribution: https://github.com/astral-sh/python-build-standalone
+PostgreSQL 16.15 (PostgreSQL License): https://www.postgresql.org/
+Windows PostgreSQL binaries supplied by EDB: https://productsdl.enterprisedb.com/download-postgresql-binaries
+Qdrant 1.15.5 (Apache-2.0): https://github.com/qdrant/qdrant
+Tesseract OCR 5.5.3 (Apache-2.0), Windows distribution by UB Mannheim:
+https://github.com/tesseract-ocr/tesseract — https://github.com/UB-Mannheim/tesseract/wiki
+Hebrew tessdata_fast 4.1.0 (Apache-2.0): https://github.com/tesseract-ocr/tessdata_fast
+Poppler 26.09.0 (GPL-2.0-or-later) and its runtime libraries:
+https://poppler.freedesktop.org/ — https://github.com/oschwartz10612/poppler-windows
+Corresponding Windows build recipes/source references: the above release repository.
+ONNX Runtime (MIT): https://github.com/microsoft/onnxruntime
+Multilingual E5 small (MIT): https://huggingface.co/intfloat/multilingual-e5-small
+MMARCO MiniLM (Apache-2.0): https://huggingface.co/cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+Model revisions, checksums and license metadata: models/manifest.json and model directories.
+Streamlit (Apache-2.0), FastAPI (MIT), asyncpg (Apache-2.0), and other Python libraries:
+python/Lib/site-packages — distribution metadata includes exact versions and licenses.
+
+Build-only tools (not required on the recipient computer): uv, Inno Setup, C# compiler, 7-Zip.

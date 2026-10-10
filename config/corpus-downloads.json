@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "documents": [
+    {
+      "url": "https://www.gov.il/BlobFolder/policy/standard_21/he/hithadshut_ironit_documents_standard_21_1.pdf",
+      "families": [
+        "standard21"
+      ],
+      "artifact_kind": "standard",
+      "download_id": "gov_standard21",
+      "title": "תקן 21.1, 2022 — standard",
+      "source_id": "government_documents",
+      "family_titles_he": [
+        "תקן 21.1, 2022"
+      ]
+    },
+    {
+      "download_id": "gov_standard21_profit_2025",
+      "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/assessor-standardization-db-21/he/land_assessor_shameim_profit-rate-25.pdf",
+      "title": "Minimum entrepreneurial profit — December 2025",
+      "source_id": "government_documents",
+      "families": [
+        "standard21"
+      ],
+      "family_titles_he": [
+        "תקן 21.1, 2022"
+      ],
+      "artifact_kind": "official_guidance",
+      "required": true,
+      "document_date": "2025-12-22",
+      "related_to": "gov_standard21"
+    },
+    {
+      "download_id": "gov_standard21_organizers_2026",
+      "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/25-02-2026/he/25-02-2026.pdf",
+      "title": "Organizer fees — February 2026",
+      "source_id": "government_documents",
+      "families": [
+        "standard21"
+      ],
+      "family_titles_he": [
+        "תקן 21.1, 2022"
+      ],
+      "artifact_kind": "official_guidance",
+      "required": true,
+      "document_date": "2026-02-25",
+      "related_to": "gov_standard21"
+    },
+    {
+      "download_id": "gov_lawyer_guidance_2022",
+      "title": "התנהלות מול עורכי דין המייצגים בעלי דירות בהתחדשות עירונית",
+      "url": "https://www.gov.il/BlobFolder/policy/hitnahalut_mul_orchey_din_hitchadshut_ironit/he/hithadshut_ironit_documents_hitnahalut_orchey_din_hitchadshut_ironit.pdf",
+      "source_id": "government_documents",
+      "artifact_kind": "official_guidance",
+      "families": [
+        "lawyer"
+      ],
+      "required": true,
+      "source_type": "official_guidance",
+      "source_name": "הרשות הממשלתית להתחדשות עירונית",
+      "issuer": "Government Authority for Urban Renewal",
+      "document_role": "official"
+    },
+    {
+      "download_id": "gov_organizer_guidance_2024",
+      "title": "התנהלות בעלי דירות מול מארגנים בהתחדשות עירונית",
+      "url": "https://www.gov.il/BlobFolder/policy/urban-renewal-owner-organizer-interaction/he/hithadshut_ironit_documents_urban-renewal-owner-organizer-interaction.pdf",
+      "source_id": "government_documents",
+      "artifact_kind": "official_guidance",
+      "families": [
+        "organizer"
+      ],
+      "required": true,
+      "source_type": "official_guidance",
+      "source_name": "הרשות הממשלתית להתחדשות עירונית",
+      "issuer": "Government Authority for Urban Renewal",
+      "document_role": "official"
+    },
+    {
+      "download_id": "gov_organizer_salary_2024",
+      "title": "שכר מארגנים בפרויקטים של התחדשות עירונית — 22.08.2024",
+      "url": "https://www.gov.il/BlobFolder/policy/urban-renewal-owner-organizer-interaction/he/hithadshut_ironit_documents_urban_renewal_project_organizer_salary.pdf",
+      "source_id": "government_documents",
+      "artifact_kind": "official_guidance",
+      "families": [
+        "organizer"
+      ],
+      "required": true,
+      "source_type": "official_guidance",
+      "source_name": "הרשות הממשלתית להתחדשות עירונית",
+      "issuer": "Government Authority for Urban Renewal",
+      "document_role": "official"
+    },
+    {
+      "download_id": "gov_representatives_workplan",
+      "title": "תכנית עבודה מומלצת לנציגות",
+      "url": "https://www.gov.il/BlobFolder/guide/ekronot_netzigut_dayarim/he/hithadshut_ironit_documents_ekronot_netzigut_dayarim_nispach.pdf",
+      "source_id": "government_documents",
+      "artifact_kind": "official_guidance",
+      "families": [
+        "representatives"
+      ],
+      "required": true,
+      "source_type": "official_guidance",
+      "source_name": "הרשות הממשלתית להתחדשות עירונית",
+      "issuer": "Government Authority for Urban Renewal",
+      "document_role": "official"
+    },
+    {
+      "download_id": "holon_representatives_authorization",
+      "title": "כתב הסמכה של הנציגות מטעם הרשות הממשלתית להתחדשות עירונית",
+      "url": "https://www.minhelet-holon.co.il/wp-content/uploads/2019/09/%D7%9B%D7%AA%D7%91-%D7%94%D7%A1%D7%9E%D7%9B%D7%94-%D7%A9%D7%9C-%D7%94%D7%A0%D7%A6%D7%99%D7%92%D7%95%D7%AA.pdf",
+      "source_id": "holon_renewal_archive",
+      "artifact_kind": "model_form",
+      "families": [
+        "representatives"
+      ],
+      "required": true,
+      "source_type": "model_form",
+      "source_name": "מינהלת חולון",
+      "issuer": "Government Authority for Urban Renewal",
+      "document_role": "template"
+    },
+    {
+      "download_id": "gov_representatives_guidance",
+      "title": "עקרונות בניית נציגות דיירים מטעם הרשות הממשלתית להתחדשות עירונית",
+      "url": "https://www.gov.il/BlobFolder/guide/ekronot_netzigut_dayarim/he/hithadshut_ironit_documents_ekronot_netzigut_dayarim_full_text.pdf",
+      "source_id": "government_documents",
+      "artifact_kind": "official_guidance",
+      "families": [
+        "representatives"
+      ],
+      "required": true,
+      "source_type": "official_guidance",
+      "source_name": "הרשות הממשלתית להתחדשות עירונית",
+      "issuer": "Government Authority for Urban Renewal",
+      "document_role": "official"
+    },
+    {
+      "download_id": "gov_contract_guide",
+      "title": "מדריך להסכם פינוי בינוי מטעם הרשות הממשלתית להתחדשות עירונית",
+      "url": "https://www.gov.il/BlobFolder/generalpage/heskem-pinuy-binuy-ledugma/he/hithadshut_ironit_documents_madrich_heskem_pinuy_binuy.pdf",
+      "source_id": "government_documents",
+      "artifact_kind": "official_guidance",
+      "families": [
+        "contracts"
+      ],
+      "required": true,
+      "source_type": "official_guidance",
+      "source_name": "הרשות הממשלתית להתחדשות עירונית",
+      "issuer": "Government Authority for Urban Renewal",
+      "document_role": "official"
+    },
+    {
+      "download_id": "holon_contract_template",
+      "title": "הסכם לדוגמה בין בעלי הדירות ליזם לעסקת פינוי בינוי - מטעם הרשות הממשלתית להתחדשות עירונית",
+      "url": "https://www.minhelet-holon.co.il/wp-content/uploads/2022/01/%D7%94%D7%A1%D7%9B%D7%9D-%D7%9C%D7%93%D7%95%D7%92%D7%9E%D7%90-%D7%91%D7%99%D7%9F-%D7%99%D7%96%D7%9D-%D7%9C%D7%91%D7%A2%D7%9C%D7%99%D7%99-%D7%93%D7%99%D7%A8%D7%95%D7%AA-%D7%91%D7%A2%D7%A1%D7%A7%D7%AA-%D7%A4%D7%99%D7%A0%D7%95%D7%99-%D7%91%D7%99%D7%A0%D7%95%D7%99.pdf",
+      "source_id": "holon_renewal_archive",
+      "artifact_kind": "model_agreement",
+      "families": [
+        "contracts"
+      ],
+      "required": true,
+      "source_type": "model_agreement",
+      "source_name": "מינהלת חולון",
+      "issuer": "Government Authority for Urban Renewal",
+      "document_role": "template"
+    },
+    {
+      "download_id": "holon_meeting_regulations_2022",
+      "title": "תקנות פינוי בינוי - כינוס דיירים ועיקרי הצעה (התשפ\"ב 2022)",
+      "url": "https://www.minhelet-holon.co.il/wp-content/uploads/2022/06/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA-%D7%A4%D7%99%D7%A0%D7%95%D7%99-%D7%91%D7%99%D7%A0%D7%95%D7%99-%D7%9B%D7%99%D7%A0%D7%95%D7%A1-%D7%95%D7%9E%D7%A1%D7%9E%D7%9A-%D7%A2%D7%99%D7%A7%D7%A8%D7%99-%D7%94%D7%A6%D7%A2%D7%94-%D7%A7%D7%95%D7%91%D7%A5-%D7%94%D7%AA%D7%A7%D7%A0%D7%95%D7%AA-9992.pdf",
+      "source_id": "holon_renewal_archive",
+      "artifact_kind": "regulation_gazette",
+      "families": [
+        "meeting_summary"
+      ],
+      "required": true,
+      "source_type": "regulation_gazette",
+      "source_name": "מינהלת חולון",
+      "issuer": "Ministry of Justice — Reshumot",
+      "document_role": "official"
+    },
+    {
+      "download_id": "petah_tikva_lawyer_template",
+      "title": "הסכם למתן שירותים משפטיים — הסכם לדוגמה",
+      "url": "https://cramim-pt.co.il/wp-content/uploads/2023/03/%D7%94%D7%A1%D7%9B%D7%9D-%D7%9E%D7%AA%D7%9F-%D7%9C%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D-%D7%9E%D7%A9%D7%A4%D7%98%D7%99%D7%99%D7%9D.pdf",
+      "source_id": "petah_tikva_renewal_archive",
+      "artifact_kind": "model_agreement",
+      "families": [
+        "lawyer"
+      ],
+      "required": true,
+      "source_type": "model_agreement",
+      "source_name": "כרמים — המינהלת להתחדשות עירונית פתח תקווה",
+      "issuer": "Government Authority for Urban Renewal",
+      "document_role": "template"
+    },
+    {
+      "download_id": "jerusalem_cancellation_regulations_2025",
+      "title": "תקנות פינוי ובינוי — תשלום בשל ביטול עסקת התחדשות עירונית — קובץ התקנות 11779",
+      "url": "https://minhelet-j.org.il/wp-content/uploads/2025/06/%D7%A7%D7%95%D7%91%D7%A5-%D7%AA%D7%A7%D7%A0%D7%95%D7%AA-11779-%D7%AA%D7%A9%D7%9C%D7%95%D7%9D-%D7%91%D7%A9%D7%9C-%D7%91%D7%99%D7%98%D7%95%D7%9C-%D7%A2%D7%A1%D7%A7%D7%AA-%D7%94%D7%AA%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%A2%D7%99%D7%A8%D7%95%D7%A0%D7%99%D7%AA.pdf",
+      "source_id": "jerusalem_renewal_archive",
+      "artifact_kind": "regulation_gazette",
+      "families": [
+        "pinui"
+      ],
+      "required": true,
+      "source_type": "regulation_gazette",
+      "source_name": "המינהלת להתחדשות עירונית ירושלים",
+      "issuer": "Ministry of Justice — Reshumot",
+      "document_role": "official"
+    },
+    {
+      "download_id": "nzc_lawyer_ethics_67_21",
+      "title": "התנהלות עורכי דין בפרויקט התחדשות עירונית — את/67/21",
+      "url": "https://www.nzc.org.il/uploads/n/1728989690.3437.pdf",
+      "source_id": "ness_ziona_archive",
+      "artifact_kind": "ethics_decision",
+      "source_type": "ethics_decision",
+      "families": [
+        "lawyer"
+      ],
+      "required": true,
+      "issuer": "Israel Bar Association — National Ethics Committee",
+      "replaces_failed_source": "yavne_lawyer_ethics_67_21",
+      "source_name": "עיריית נס ציונה",
+      "document_role": "official"
+    }
+  ],
+  "families": [
+    {
+      "family_alias": "pinui",
+      "title_he": "חוק פינוי ובינוי (עידוד מיזמי פינוי ובינוי), 2006"
+    },
+    {
+      "family_alias": "authority",
+      "title_he": "חוק הרשות הממשלתית להתחדשות עירונית, 2016"
+    },
+    {
+      "family_alias": "organizer",
+      "title_he": "חוק התחדשות עירונית (הסכמים לארגון עסקאות), 2017"
+    },
+    {
+      "family_alias": "strengthening",
+      "title_he": "חוק המקרקעין (חיזוק בתים משותפים מפני רעידות אדמה), 2008"
+    },
+    {
+      "family_alias": "property",
+      "title_he": "חוק המקרקעין, 1969"
+    },
+    {
+      "family_alias": "planning",
+      "title_he": "חוק התכנון והבניה, 1965"
+    },
+    {
+      "family_alias": "tax",
+      "title_he": "חוק מיסוי מקרקעין (שבח ורכישה), 1963"
+    },
+    {
+      "family_alias": "sale",
+      "title_he": "חוק המכר (דירות), 1973"
+    },
+    {
+      "family_alias": "guarantees",
+      "title_he": "חוק המכר (דירות) (הבטחת השקעות של רוכשי דירות), 1974"
+    },
+    {
+      "family_alias": "public_housing",
+      "title_he": "חוק זכויות הדייר בדיור הציבורי, 1998"
+    },
+    {
+      "family_alias": "appraisers",
+      "title_he": "חוק שמאי מקרקעין, 2001"
+    },
+    {
+      "family_alias": "contracts",
+      "title_he": "חוק החוזים (חלק כללי), 1973"
+    },
+    {
+      "family_alias": "remedies",
+      "title_he": "חוק החוזים (תרופות בשל הפרת חוזה), 1970"
+    },
+    {
+      "family_alias": "preferred_areas",
+      "title_he": "חוק לקידום הבנייה במתחמים מועדפים (הוראת שעה), 2014"
+    },
+    {
+      "family_alias": "disability",
+      "title_he": "חוק שוויון זכויות לאנשים עם מוגבלות, 1998"
+    },
+    {
+      "family_alias": "war_restoration",
+      "title_he": "חוק שיקום נזקי מלחמה בדרך של התחדשות עירונית, 2026"
+    },
+    {
+      "family_alias": "standard21",
+      "title_he": "תקן 21.1, 2022"
+    },
+    {
+      "family_alias": "meeting_summary",
+      "title_he": "תקציר רשמי — תקנות כינוס בעלי הדירות, 2022"
+    }
+  ],
+  "required_documents_not_acquired": [
+    {
+      "title_he": "תקנות פינוי ובינוי (מינוי שמאי פינוי ובינוי וסדרי דין), 2012",
+      "reason": "Official government/municipal original still not located. Private archive gazette 7120 (16.05.2012, p.1146) found for discovery; not substituted for verified official source.",
+      "source_url": null,
+      "discovery_url": "https://olaw.org.il/takanot/takanot-7120.pdf"
+    },
+    {
+      "title_he": "תקנות פינוי ובינוי (כללים לקביעת שכרו של שמאי פינוי ובינוי), 2011",
+      "reason": "Official government/municipal original still not located after title/publication searches. Gazette 2011 p.272 identified through discovery source; no verified official PDF acquired.",
+      "source_url": null
+    },
+    {
+      "family_alias": "pinui",
+      "title_he": "חוק פינוי ובינוי (עידוד מיזמי פינוי ובינוי), 2006",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "authority",
+      "title_he": "חוק הרשות הממשלתית להתחדשות עירונית, 2016",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "organizer",
+      "title_he": "חוק התחדשות עירונית (הסכמים לארגון עסקאות), 2017",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "strengthening",
+      "title_he": "חוק המקרקעין (חיזוק בתים משותפים מפני רעידות אדמה), 2008",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "property",
+      "title_he": "חוק המקרקעין, 1969",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "planning",
+      "title_he": "חוק התכנון והבניה, 1965",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "tax",
+      "title_he": "חוק מיסוי מקרקעין (שבח ורכישה), 1963",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "sale",
+      "title_he": "חוק המכר (דירות), 1973",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "guarantees",
+      "title_he": "חוק המכר (דירות) (הבטחת השקעות של רוכשי דירות), 1974",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "public_housing",
+      "title_he": "חוק זכויות הדייר בדיור הציבורי, 1998",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "appraisers",
+      "title_he": "חוק שמאי מקרקעין, 2001",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "contracts",
+      "title_he": "חוק החוזים (חלק כללי), 1973",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "remedies",
+      "title_he": "חוק החוזים (תרופות בשל הפרת חוזה), 1970",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "preferred_areas",
+      "title_he": "חוק לקידום הבנייה במתחמים מועדפים (הוראת שעה), 2014",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "disability",
+      "title_he": "חוק שוויון זכויות לאנשים עם מוגבלות, 1998",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    },
+    {
+      "family_alias": "war_restoration",
+      "title_he": "חוק שיקום נזקי מלחמה בדרך של התחדשות עירונית, 2026",
+      "required_artifact_kind": "consolidated_law",
+      "verification_status": "manual_review",
+      "reason": "Full consolidated edition current as of 2026-10-09 not acquired or verified; old originals and amendments removed at user request. Do not substitute first publication.",
+      "source_url": null
+    }
+  ],
+  "retention_policy": "current_only"
+}

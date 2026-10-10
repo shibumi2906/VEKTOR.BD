@@ -1,0 +1,105 @@
+[
+  {
+    "term_he": "עורך דין המייצג בעלי דירות",
+    "term_ru": "адвокат собственников квартир (адвокат жильцов)",
+    "aliases": [
+      "адвокат жильц",
+      "адвоката жильц",
+      "адвокат собственник",
+      "адвоката собственник",
+      "residents' lawyer",
+      "owners' lawyer",
+      "עורך דין המייצג בעלי דירות",
+      "עורך דין דיירים",
+      "адвокате жильц",
+      "адвокату жильц",
+      "адвокатом жильц",
+      "адвокате собственник",
+      "адвокату собственник",
+      "адвокатом собственник",
+      "residents lawyer",
+      "owners lawyer",
+      "עו״ד דיירים",
+      "בא כוח בעלי הדירות"
+    ],
+    "he_variants": [
+      "עורך דין",
+      "עורך הדין",
+      "עו\"ד",
+      "עורכי דין",
+      "עו״ד",
+      "בא כוח"
+    ],
+    "source_type": "official_guidance",
+    "source_url": "https://www.gov.il/BlobFolder/policy/hitnahalut_mul_orchey_din_hitchadshut_ironit/he/hithadshut_ironit_documents_hitnahalut_orchey_din_hitchadshut_ironit.pdf"
+  },
+  {
+    "term_he": "בעלי דירות",
+    "term_ru": "собственники квартир; в контексте проекта — жильцы-собственники",
+    "aliases": [
+      "собственник",
+      "жильц",
+      "apartment owners",
+      "בעלי דירות",
+      "בעלי הדירות"
+    ],
+    "he_variants": [
+      "בעלי דירות",
+      "בעלי הדירות",
+      "דיירים",
+      "הדיירים",
+      "בעל דירה",
+      "בעלי הדירה"
+    ],
+    "source_type": "official_guidance",
+    "source_url": "https://www.gov.il/BlobFolder/policy/hitnahalut_mul_orchey_din_hitchadshut_ironit/he/hithadshut_ironit_documents_hitnahalut_orchey_din_hitchadshut_ironit.pdf"
+  },
+  {
+    "term_he": "מארגן",
+    "term_ru": "организатор сделки городского обновления",
+    "aliases": [
+      "организатор",
+      "organizer",
+      "מארגן"
+    ],
+    "he_variants": [
+      "מארגן",
+      "מארגני",
+      "מארגנים"
+    ],
+    "source_type": "official_guidance_quoting_law",
+    "source_url": "https://www.gov.il/BlobFolder/policy/urban-renewal-owner-organizer-interaction/he/hithadshut_ironit_documents_urban-renewal-owner-organizer-interaction.pdf"
+  },
+  {
+    "term_he": "שמאי פינוי ובינוי",
+    "term_ru": "оценщик проекта пинуй-бинуй",
+    "aliases": [
+      "оценщик",
+      "шамай",
+      "шама",
+      "appraiser",
+      "שמאי"
+    ],
+    "he_variants": [
+      "שמאי",
+      "שמאות"
+    ],
+    "source_type": "official_service",
+    "source_url": "https://www.gov.il/he/service/bakasha-leminuy-shamay-renewal"
+  },
+  {
+    "term_he": "יזם",
+    "term_ru": "застройщик проекта",
+    "aliases": [
+      "застройщик",
+      "developer",
+      "יזם"
+    ],
+    "he_variants": [
+      "יזם",
+      "יזמי"
+    ],
+    "source_type": "official_guidance",
+    "source_url": "https://www.gov.il/BlobFolder/policy/hitnahalut_mul_orchey_din_hitchadshut_ironit/he/hithadshut_ironit_documents_hitnahalut_orchey_din_hitchadshut_ironit.pdf"
+  }
+]

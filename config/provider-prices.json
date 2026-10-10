@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-09",
+  "currency": "USD",
+  "unit": "per_million_tokens",
+  "models": {
+    "gpt-5.4-mini": {"input": 0.75, "output": 4.5, "source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini"},
+    "gpt-4.1-mini": {"input": 0.4, "output": 1.6, "source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini"}
+  },
+  "policy": "Cached inputs conservatively charged at full input price; ambiguous failures consume reservation"
+}

@@ -1,0 +1,69 @@
+name: pinui-rag
+
+x-app: &app
+  build: .
+  image: pinui-rag-app:t01
+  env_file: .env
+  restart: unless-stopped
+  volumes:
+    - raw-data:/data/raw
+    - runtime:/runtime
+    - ./data:/workspace/data
+  depends_on:
+    postgres:
+      condition: service_healthy
+    qdrant:
+      condition: service_started
+
+services:
+  postgres:
+    image: postgres:16-alpine@sha256:57c72fd2a128e416c7fcc499958864df5301e940bca0a56f58fddf30ffc07777
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-pinui}
+      POSTGRES_USER: ${POSTGRES_USER:-pinui}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run python scripts/init_env.py first}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U "$${POSTGRES_USER}" -d "$${POSTGRES_DB}"']
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  qdrant:
+    image: qdrant/qdrant:v1.15.5@sha256:0fb8897412abc81d1c0430a899b9a81eb8328aa634e7242d1bc804c1fe8fe863
+    volumes:
+      - qdrant-data:/qdrant/storage
+    restart: unless-stopped
+
+  api:
+    <<: *app
+    ports:
+      - "127.0.0.1:${API_PORT:-8010}:8000"
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+
+  worker:
+    <<: *app
+    user: root
+    command: [python, -m, app.jobs.process, worker]
+
+  scheduler:
+    <<: *app
+    command: [python, -m, app.jobs.process, scheduler]
+
+  ui:
+    <<: *app
+    command: [streamlit, run, ui/main.py, --server.address=0.0.0.0, --server.port=8501, --browser.gatherUsageStats=false]
+    ports:
+      - "127.0.0.1:${UI_PORT:-8510}:8501"
+
+volumes:
+  postgres-data:
+  qdrant-data:
+  raw-data:
+  runtime:

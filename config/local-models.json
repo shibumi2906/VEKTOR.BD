@@ -1,0 +1,48 @@
+{
+  "candidates": [
+    {
+      "name": "e5-small-int8",
+      "model": "intfloat/multilingual-e5-small",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "onnx": "onnx/model_qint8_avx512_vnni.onnx",
+      "license": "mit",
+      "dimension": 384,
+      "max_length": 512,
+      "query_prefix": "query: ",
+      "document_prefix": "passage: "
+    },
+    {
+      "name": "minilm-multilingual-int8",
+      "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+      "onnx": "onnx/model_quint8_avx2.onnx",
+      "license": "apache-2.0",
+      "dimension": 384,
+      "max_length": 128,
+      "query_prefix": "",
+      "document_prefix": ""
+    }
+  ],
+  "reranker": {
+    "name": "mmarco-minilm-int8",
+    "model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "onnx": "onnx/model_quint8_avx2.onnx",
+    "license": "apache-2.0",
+    "max_length": 512
+  },
+  "selected": {
+    "name": "e5-small-int8",
+    "model": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "onnx": "onnx/model_qint8_avx512_vnni.onnx",
+    "license": "mit",
+    "dimension": 384,
+    "max_length": 512,
+    "query_prefix": "query: ",
+    "document_prefix": "passage: "
+  },
+  "review": "Compare measured Hebrew retrieval; mMARCO training languages do not establish Hebrew acceptance",
+  "reranker_length": 512,
+  "rerank_min_score": -3.0190533638000487
+}

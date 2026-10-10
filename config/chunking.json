@@ -1,0 +1,11 @@
+{
+  "max_tokens": 800,
+  "overlap_tokens": 100,
+  "tokenizer": "unicode-word-punctuation-v1",
+  "tokenizer_status": "provisional; remeasure with selected embedding tokenizer at T05",
+  "reviewed_non_content_pages": {
+    "gov_representatives_guidance": [8],
+    "gov_contract_guide": [4, 27, 28]
+  },
+  "review_note": "2026-10-09: rendered source pages visually checked; decorative/blank covers only"
+}

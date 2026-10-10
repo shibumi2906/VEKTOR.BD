@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "source_id": "knesset_gazette",
+      "authority": "הכנסת — רשומות, ספר החוקים",
+      "allowed_hosts": [
+        "fs.knesset.gov.il"
+      ],
+      "allowed_path_prefixes": [
+        "/1/law/",
+        "/2/law/",
+        "/3/law/",
+        "/4/law/",
+        "/5/law/",
+        "/6/law/",
+        "/7/law/",
+        "/8/law/",
+        "/9/law/",
+        "/10/law/",
+        "/11/law/",
+        "/12/law/",
+        "/13/law/",
+        "/14/law/",
+        "/15/law/",
+        "/16/law/",
+        "/17/law/",
+        "/18/law/",
+        "/19/law/",
+        "/20/law/",
+        "/21/law/",
+        "/22/law/",
+        "/23/law/",
+        "/24/law/",
+        "/25/law/"
+      ],
+      "document_categories": [
+        "legislation",
+        "amendment_gazette"
+      ],
+      "check_interval_seconds": 604800,
+      "verification_method": "etag_last_modified_sha256_then_manual_edition_check",
+      "redirect_policy": "same allowlist; HTTPS only; every hop checked; PDF path required",
+      "legal_activation": "manual_review until edition and effective dates verified"
+    },
+    {
+      "source_id": "government_documents",
+      "authority": "ממשלת ישראל",
+      "allowed_hosts": [
+        "www.gov.il"
+      ],
+      "allowed_path_prefixes": [
+        "/BlobFolder/"
+      ],
+      "document_categories": [
+        "legislation",
+        "standard",
+        "official_guidance"
+      ],
+      "check_interval_seconds": 604800,
+      "verification_method": "etag_last_modified_sha256_then_manual_edition_check",
+      "redirect_policy": "same allowlist; HTTPS only; every hop checked; PDF path required",
+      "legal_activation": "manual_review until edition and effective dates verified"
+    },
+    {
+      "source_id": "holon_renewal_archive",
+      "authority": "Holon urban renewal administration — Ministry of Justice publication archive",
+      "allowed_hosts": [
+        "www.minhelet-holon.co.il"
+      ],
+      "allowed_path_prefixes": [
+        "/wp-content/uploads/2022/08/",
+        "/wp-content/uploads/2022/06/",
+        "/wp-content/uploads/2022/01/",
+        "/wp-content/uploads/2019/09/"
+      ],
+      "document_categories": [
+        "standard",
+        "regulation_gazette",
+        "model_agreement",
+        "model_form"
+      ],
+      "check_interval_seconds": 604800,
+      "verification_method": "etag_last_modified_sha256_then_manual_edition_check",
+      "redirect_policy": "same allowlist; HTTPS only; every hop checked; PDF path required",
+      "legal_activation": "manual_review until edition and effective dates verified"
+    },
+    {
+      "source_id": "petah_tikva_renewal_archive",
+      "authority": "Petah Tikva urban renewal administration — published government model agreement",
+      "allowed_hosts": [
+        "cramim-pt.co.il"
+      ],
+      "allowed_path_prefixes": [
+        "/wp-content/uploads/2023/03/"
+      ],
+      "document_categories": [
+        "official_guidance",
+        "ethics_decision",
+        "model_agreement",
+        "regulation_gazette"
+      ],
+      "check_interval_seconds": 604800,
+      "verification_method": "etag_last_modified_sha256_then_manual_edition_check",
+      "redirect_policy": "HTTPS allowlist; every hop checked; PDF only",
+      "legal_activation": "manual_review until edition and effective dates verified"
+    },
+    {
+      "source_id": "jerusalem_renewal_archive",
+      "authority": "Jerusalem urban renewal administration — gazette archive",
+      "allowed_hosts": [
+        "minhelet-j.org.il"
+      ],
+      "allowed_path_prefixes": [
+        "/wp-content/uploads/2025/06/"
+      ],
+      "document_categories": [
+        "official_guidance",
+        "ethics_decision",
+        "model_agreement",
+        "regulation_gazette"
+      ],
+      "check_interval_seconds": 604800,
+      "verification_method": "etag_last_modified_sha256_then_manual_edition_check",
+      "redirect_policy": "HTTPS allowlist; every hop checked; PDF only",
+      "legal_activation": "manual_review until edition and effective dates verified"
+    },
+    {
+      "source_id": "ness_ziona_archive",
+      "authority": "Ness Ziona municipality — Israel Bar ethics decision archive",
+      "allowed_hosts": [
+        "www.nzc.org.il"
+      ],
+      "allowed_path_prefixes": [
+        "/uploads/n/1728989690.3437.pdf"
+      ],
+      "document_categories": [
+        "official_guidance",
+        "ethics_decision",
+        "model_agreement",
+        "regulation_gazette"
+      ],
+      "check_interval_seconds": 604800,
+      "verification_method": "etag_last_modified_sha256_then_manual_edition_check",
+      "redirect_policy": "HTTPS allowlist; every hop checked; PDF only",
+      "legal_activation": "manual_review until edition and effective dates verified"
+    },
+    {
+      "source_id": "yavne_renewal_archive",
+      "authority": "Yavne urban renewal archive (unavailable PDF; alternative acquired from Ness Ziona)",
+      "allowed_hosts": [
+        "www.minheletyavne.org.il"
+      ],
+      "allowed_path_prefixes": [
+        "/html5/Web/8295/doc557.pdf"
+      ],
+      "document_categories": [
+        "ethics_decision"
+      ],
+      "check_interval_seconds": 604800,
+      "verification_method": "etag_last_modified_sha256_then_manual_edition_check",
+      "redirect_policy": "HTTPS allowlist; each hop checked; redirects to non-PDF rejected",
+      "legal_activation": "manual_review until edition and applicability verified"
+    },
+    {
+      "source_id": "knesset_law_inventory",
+      "authority": "Knesset national legislation database — law amendment inventories",
+      "allowed_hosts": [
+        "main.knesset.gov.il"
+      ],
+      "allowed_path_prefixes": [
+        "/apps/legislation/",
+        "/APPS/legislation/",
+        "/Activity/Legislation/",
+        "/activity/legislation/"
+      ],
+      "document_categories": [
+        "law_inventory"
+      ],
+      "check_interval_seconds": 86400,
+      "verification_method": "manual official law inventory and entry-into-force review; retain URL/hash and checked date",
+      "redirect_policy": "No automatic acquisition implemented for HTML inventories",
+      "legal_activation": "Never infer verified/current from a reachable page alone"
+    }
+  ]
+}
